@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    https://stackoverflow.com/questions/64971631/android-dark-mode-issue-black-text-on-dark-background-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        app:layout_constraintBottom_toTopOf="@+id/linearlayout_product_details_buttons"
+        android:id="@+id/scrollview_product_details"
+        app:layout_constraintVertical_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageview_product_details_photo"
+                android:src="@drawable/no_image_available"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textview_product_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/details_title_temp"
+                android:textSize="30sp"
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textview_product_details_price"
+                    android:text="@string/details_price_temp"
+                    android:textSize="20sp"
+                    android:textColor="?android:textColorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textview_product_details_date"
+                    android:text="@string/details_date_temp"
+                    android:textSize="20sp"
+                    android:layout_gravity="end"
+                    android:textAlignment="textEnd"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_product_details_description_title"
+                android:text="@string/details_description_title"
+                android:textSize="20sp"
+                android:textColor="?android:textColorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="10dp" />
+
+            <TextView
+                android:id="@+id/textview_product_details_description"
+                android:text="@string/details_description_temp"
+                android:textStyle="italic"
+                android:textColor="?android:textColorPrimary"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textview_product_details_seller_id"
+                android:text="@string/details_seller_id"
+                android:textSize="20sp"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textview_product_details_location"
+                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:drawablePadding="7dp"
+                android:text="@string/details_location_temp"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="75dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--        Put a google map view?-->
+            <!--        <androidx.fragment.app.FragmentContainerView-->
+            <!--            android:layout_marginTop="5dp"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="300dp" />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/linearlayout_product_details_buttons"
+        app:layout_constraintTop_toBottomOf="@+id/scrollview_product_details"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:drawableLeft="@drawable/ic_baseline_chat_24"
+            android:text="@string/details_chat_button"
+            android:onClick="onChatClicked"
+            android:layout_marginHorizontal="25dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_save_product"
+            android:drawableLeft="@drawable/ic_outline_save_24_outlined"
+            android:text="@string/details_save_button"
+            android:onClick="onSaveClicked"
+            android:layout_marginHorizontal="25dp"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity">
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_search"
+                android:icon="@drawable/ic_baseline_search_24"
+                android:title="@string/action_search"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_inbox"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="@string/action_inbox"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_add"
+                android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                android:title="@string/action_add"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/action_view_my_products"
+                android:icon="@drawable/ic_baseline_shopping_cart_24"
+                android:title="@string/action_view_my_products"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/action_saved_products"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="@string/action_saved_products"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/action_settings"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/action_sign_out"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="@string/action_sign_out"
+                app:showAsAction="withText" />
+        </menu>
+    </item>
+
+</menu>

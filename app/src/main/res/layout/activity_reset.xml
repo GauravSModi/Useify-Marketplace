@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/reset_password"
+            android:layout_width="142dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="134dp"
+            android:scaleX="2.0"
+            android:scaleY="2.0"
+            android:text="@string/reset_password"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="25dp"
+            android:background="#1E38CC"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="@string/back_button"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorLink="#0821AE"
+            android:onClick="onResetPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/submit_reset_email_button"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <TextView
+            android:id="@+id/enter_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="100dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:text="@string/enter_email"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reset_password" />
+
+        <EditText
+            android:id="@+id/edit_reset_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="#3E3E3E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enter_email"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:autofillHints="" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit_reset_email_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="#1E38CC"
+            android:includeFontPadding="false"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:text="@string/submit_button"
+            android:textColor="@color/white"
+            android:textColorLink="#0821AE"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/back_button"
+            app:layout_constraintVertical_bias="0.5">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/results_sort_by_recent"
+            android:title="@string/search_sort_menu_recent"
+            android:checkable="true"/>
+        <item android:title="@string/search_sort_menu_cheap"
+            android:id="@+id/results_sort_by_price_low"
+            android:checkable="true"/>
+        <item android:title="@string/search_sort_menu_expensive"
+            android:id="@+id/results_sort_by_high"
+            android:checkable="true"/>
+        <!--    <item android:title="Highest Rated Seller"/>-->
+        <!--    <item android:title="Distance"/>-->
+    </group>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>All</item>
+        <item>Appliances</item>
+        <item>Audio</item>
+        <item>Automotive</item>
+        <item>Books</item>
+        <item>Computers &amp; Accessories</item>
+        <item>General Electronics</item>
+        <item>Entertainment</item>
+        <item>Fashion</item>
+        <item>Free!</item>
+        <item>Furniture</item>
+        <item>Outdoor Gear</item>
+        <item>Phones &amp; Accessories</item>
+        <item>Real Estate</item>
+        <item>Services</item>
+        <item>Tools</item>
+        <item>Toys &amp; Games</item>
+        <item>Travel</item>
+        <item>TVs &amp; Accessories</item>
+        <item>Video Games</item>
+    </string-array>
+
+    <integer-array name="icons_categories">
+        <item>@drawable/all</item>
+        <item>@drawable/appliances</item>
+        <item>@drawable/audio</item>
+        <item>@drawable/automotive</item>
+        <item>@drawable/books</item>
+        <item>@drawable/computer</item>
+        <item>@drawable/electronics</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/fashion</item>
+        <item>@drawable/free</item>
+        <item>@drawable/furniture</item>
+        <item>@drawable/outdoor</item>
+        <item>@drawable/phone</item>
+        <item>@drawable/real_estate</item>
+        <item>@drawable/services</item>
+        <item>@drawable/tools</item>
+        <item>@drawable/toys</item>
+        <item>@drawable/travel</item>
+        <item>@drawable/tv</item>
+        <item>@drawable/video_games</item>
+    </integer-array>
+
+    <string name="search_sort_menu_recent">Most Recent</string>
+    <string name="search_sort_menu_cheap">Price: Low-High</string>
+    <string name="search_sort_menu_expensive">Price: High-Low</string>
+    <string-array name="search_sort_menu_items">
+        <item>@string/search_sort_menu_recent</item>
+        <item>@string/search_sort_menu_cheap</item>
+        <item>@string/search_sort_menu_expensive</item>
+    </string-array>
+</resources>

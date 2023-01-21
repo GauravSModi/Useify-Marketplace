@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Useify</string>
+
+    <string name="product_details_title">Details</string>
+
+    // Search and Categories
+    <string name="search_categories_title">Browse</string>
+    <string name="search_bar_hint">Search Useify</string>
+    <string name="search_results_title">Results</string>
+    <string name="search_category">Category</string>
+    <string name="search_sort_menu_item_title">Sort</string>
+    <string name="search_view_changer_menu_item_title">Change view</string>
+
+    // Product details
+    <string name="details_title_temp">Title</string>
+    <string name="details_price_temp">$0.00</string>
+    <string name="details_date_temp">0 days ago</string>
+    <string name="details_description_title">Description:</string>
+    <string name="details_description_temp">Description goes here</string>
+    <string name="details_seller_id">Seller.ID</string>
+    <string name="details_location_temp">8888 University Dr, Burnaby, BC V5A 1S6</string>
+    <string name="details_chat_button">Chat</string>
+    <string name="details_save_button">Save</string>
+    <string name="details_contact_button">Contact</string>
+    <string name="details_share_menu_item_title">Share</string>
+
+    // Sign-up page
+    <string name="signup">Sign Up</string>
+    <string name="signup_user_name">User Name</string>
+    <string name="signup_user_name_hint">Bob Smith 345</string>
+    <string name="signup_first_name">First Name</string>
+    <string name="signup_first_name_hint">Bob</string>
+    <string name="signup_last_name">Last Name</string>
+    <string name="signup_last_name_hint">Smith</string>
+    <string name="signup_email">E-Mail</string>
+    <string name="signup_email_hint">BobSmith@gmail.com</string>
+    <string name="signup_phone_number">Phone Number</string>
+    <string name="signup_phone_number_hint">###-###-####</string>
+    <string name="signup_gender_female">Female</string>
+    <string name="signup_gender_male">Male</string>
+    <string name="signup_country">Country</string>
+    <string name="signup_country_hint">Canada</string>
+    <string name="signup_city">City</string>
+    <string name="signup_city_hint">Vancouver</string>
+    <string name="add_product">Add Product</string>
+    <string name="my_product_list">My Product List</string>
+    <string name="button_save">SAVE</string>
+    <string name="button_cancel">Cancel</string>
+
+    //Explore page
+    <string name="button_explore">Explore</string>
+
+    //General Settings page
+    <string name="settings">Settings</string>
+    <string name="username">Username:</string>
+    <string name="username_text">Put the username of user here!</string>
+    <string name="change_username">Change Username</string>
+    <string name="enter_password">Password</string>
+    <string name="change_password">Change Password</string>
+
+    //password page
+    <string name="new_password">Choose your new Password: </string>
+    <string name="current_password">Enter your current Password: </string>
+    <string name="done_button">Done</string>
+
+    //username page
+    <string name="new_username">Enter in your new Username:</string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="back_button">Back</string>
+    <string name="enter_email">Enter in your email below</string>
+    <string name="submit_button">Submit</string>
+    <string name="details">Details</string>
+    <string name="search">Search</string>
+
+    // Chat
+    <string name="chat_username_default">Username</string>
+    <string name="chat_title_default">Title</string>
+    <string name="chat_new_message_textview_hint">Type a message...</string>
+    <string name="chat_inbox_title">Inbox</string>
+    <string name="signup_password">Password</string>
+    <string name="logout">Sign out</string>
+
+    // Saved products
+    <string name="saved_products_title">Saved Products</string>
+
+    //options menu
+    <string name="action_search">Search</string>
+    <string name="action_inbox">Inbox</string>
+    <string name="action_add">Add a New Product</string>
+    <string name="action_view_my_products">All My Products</string>
+    <string name="action_saved_products">Saved Products</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_out">Sign Out</string>
+
+</resources>

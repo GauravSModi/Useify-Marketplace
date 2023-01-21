@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_category_id">product category</string>
+    <string name="key_search_query_type">search query type</string>
+    <string name="key_search_query">search query string</string>
+    <string name="key_product_clicked">product clicked</string>
+    <string name="key_chat_seller_id">seller ID</string>
+    <string name="key_chat_product_id">product ID</string>
+    <string name="key_chat_conversation_id">conversation ID</string>
+    <string name="key_chat_other_user_id">other user ID</string>
+    <string name="key_chat_start_type">activity start type</string>
+    <string name="key_my_user_id">my user ID</string>
+</resources>
