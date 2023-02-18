@@ -1,5 +1,5 @@
 # Useify-Marketplace
-Android classifieds app for buying and selling used items
+Android classifieds app for buying and selling used items  
 Group project for CMPT 362: Mobile Applications Programming and Design
 
 # Modules and Features:
