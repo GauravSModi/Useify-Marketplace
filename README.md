@@ -1,7 +1,7 @@
 # Useify-Marketplace
 
 ## Description
-- Android classifieds app that can be used for buying and selling used items, offering services, and more
+- Android classifieds app that can be used for buying and selling used items, offer services, and more
 
 ## Components and Technologies:
 - Developed using **Android SDK (Kotlin)**
