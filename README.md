@@ -5,7 +5,7 @@
 
 ## Components and Technologies:
 - Developed using **Android SDK (Kotlin)**
-- Utilizes **Google Cloud Firebase** to implement the cloud-hosted NoSQL database, user authentication, and push notifications
+- Utilizes **Google Cloud Firebase** to implement the cloud-hosted NoSQL database, secure user authentication, and push notifications
 - Integrates Google Maps API and Google Autocomplete API
 
 ## Modules and Features:
