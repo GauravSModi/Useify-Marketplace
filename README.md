@@ -1,8 +1,14 @@
 # Useify-Marketplace
-Android classifieds app for buying and selling used items  
-Group project for CMPT 362: Mobile Applications Programming and Design
 
-# Modules and Features:
+## Description
+- Android classifieds app that can be used for buying and selling used items, offering services, and more
+
+## Components and Technologies:
+- Developed using **Android SDK (Kotlin)**
+- Utilizes **Google Cloud Firebase** to implement the cloud-hosted NoSQL database, user authentication, and push notifications
+- Integrates Google Maps API and Google Autocomplete API
+
+## Modules and Features:
 - [x] Search
 - [x] Categories Page
 - [x] Chat and Inbox
