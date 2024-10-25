@@ -15,7 +15,7 @@
 - [x] Browse Page
 - [x] Product Details
 - [x] Save Product
-- [x] Google Maps API
+- [x] Google Maps API integration
 - [ ] Authentication and user sign-up
 - [ ] NoSQL database hosted using Firebase
 - [ ] Add Listing page
