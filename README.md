@@ -6,7 +6,7 @@
 ## Components and Technologies:
 - Developed using **Android SDK (Kotlin)**
 - Utilizes **Google Cloud Firebase** to implement the cloud-hosted NoSQL database, secure user authentication, and push notifications
-- Integrates Google Maps API and Google Autocomplete API
+- Integrates Google Maps API and Google Autocomplete API to facilitate safe and easy transactions for both the buyer as well as the seller
 
 ## Modules and Features:
 - [x] Search
